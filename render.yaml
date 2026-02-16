@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: invitacion-boda
+    runtime: static
+    buildCommand: echo "Static site - no build needed"
+    staticPublishPath: .
+    envVars: []
